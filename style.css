@@ -1,71 +1,85 @@
-body{
-    background-image : url('https://images.squarespace-cdn.com/content/v1/57cb9c07d2b857343fd0568b/1602817286896-S75GYR01BNDC7EN7O0S0/Myke+towers+foto+por+guayafull.com%286%29.jpg');
-}
-
-
-.navbar-brand {
-    color: white;
-}
-
-
-
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    color: white;
-}
-
-
-.nav-link {
-    color: white;
-}
-
-
-.navbar-light .navbar-toggler-icon {
-    background-color: white;
-}
-
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-    color: white;
-}
-
-.navbar-light .navbar-brand {
-    color: rgb(255, 255, 255);
-    margin-left: 1%;
-}
-
-.navbar-light .navbar-brand:hover {
-    color: rgb(255, 255, 255);
-}
-
-.navbar-light .navbar-brand:visited {
-    color: rgb(255, 255, 255);
-}
-
-.navbar-light .navbar-brand:active {
-    color: rgb(255, 255, 255);
-}
-
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show>.nav-link {
-    color: white;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color: white;
-}
-
-.navbar-light .navbar-nav .nav-link:visited {
-    color: rgb(255, 255, 255);
-}
-
-.navbar-light .navbar-nav .nav-link:active {
-    color: rgb(255, 255, 255);
-}
-
-.navbar-light .navbar-nav .nav-link.disabled {
-    color: white;
-}
+    body {
+        background-image: url('https://images.squarespace-cdn.com/content/v1/57cb9c07d2b857343fd0568b/1602817286896-S75GYR01BNDC7EN7O0S0/Myke+towers+foto+por+guayafull.com%286%29.jpg');
+    }
+    
+    .navbar-brand {
+        color: white;
+    }
+    
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        color: white;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+    
+    .navbar-light .navbar-toggler-icon {
+        background-color: white;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: white;
+    }
+    
+    .navbar-light .navbar-brand {
+        color: rgb(255, 255, 255);
+        margin-left: 1%;
+    }
+    
+    .navbar-light .navbar-brand:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+    .navbar-light .navbar-brand:visited {
+        color: rgb(255, 255, 255);
+    }
+    
+    .navbar-light .navbar-brand:active {
+        color: rgb(255, 255, 255);
+    }
+    
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: white;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: white;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:visited {
+        color: rgb(255, 255, 255);
+    }
+    
+    .navbar-light .navbar-nav .nav-link:active {
+        color: rgb(255, 255, 255);
+    }
+    
+    .navbar-light .navbar-nav .nav-link.disabled {
+        color: white;
+    }
+    
+    .mb-4 {
+        background: black;
+    }
+    
+    .d-block {
+        height: 400px;
+        border-radius: 40px;
+    }
+    
+    .h-100 {
+        padding: 15px;
+    }
+    
+    .g-4,
+    .gy-4 {
+        margin-top: 30px;
+    }

@@ -1,10 +1,10 @@
 // Funcion para recorrer un arreglo
 
-export function pintarCanciones(canciones){
-    
-    let fila= document.getElementById("fila")
+export function pintarCanciones(canciones) {
 
-    canciones.forEach(function(cancion){
+    let fila = document.getElementById("fila")
+
+    canciones.forEach(function(cancion) {
 
         //console.log(cancion)
         console.log(cancion.name)
@@ -14,20 +14,20 @@ export function pintarCanciones(canciones){
 
         // rutina creado
 
-        let columna=document.createElement("div")
+        let columna = document.createElement("div")
         columna.classList.add("col")
 
-        let tarjeta= document.createElement("div")
-        columna.classList.add("card","h-100","shadow")
+        let tarjeta = document.createElement("div")
+        tarjeta.classList.add("card", "h-100", "shadow")
 
-        let audio= document.createElement("audio")
+        let audio = document.createElement("audio")
         audio.classList.add("w-100")
-        audio.setAttribute("controls","controls")
-        audio.src=cancion.preview_url
+        audio.setAttribute("controls", "controls")
+        audio.src = cancion.preview_url
 
-        let foto= document.createElement("img")
+        let foto = document.createElement("img")
         foto.classList.add("w-100", "img-fluid")
-        foto.src=cancion.album.images[0].url
+        foto.src = cancion.album.images[0].url
 
         //padres e hijos
         tarjeta.appendChild(foto)
